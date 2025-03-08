@@ -3,9 +3,7 @@ import workflow from '../assets/flow/workflow.png'
 
 export default function About() {
 
-  useEffect(()=>{
-    AOS.init({duration:1000})
-  },[])
+  
   
   return (
     <div>

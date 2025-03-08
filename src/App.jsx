@@ -23,6 +23,10 @@ function App() {
                 <About></About>
                 <Bgabout></Bgabout>
               </>}></Route>
+              <Route path='/Chatbot' element={
+              <>
+                <Chatbot></Chatbot>
+              </>}></Route>
       </Routes>
       
       

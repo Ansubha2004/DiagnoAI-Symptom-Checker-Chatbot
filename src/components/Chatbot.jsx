@@ -33,21 +33,21 @@ const Chatbot = () => {
 
 Instructions:
 - Ask follow-up questions to gather detailed information about symptoms, duration, severity, and any existing medical conditions.
-- Provide a *preliminary analysis* of possible conditions but clearly state that this is not a medical diagnosis.
-- Suggest *next steps*, including home remedies, lifestyle changes, or when to seek professional medical help.
-- Avoid providing *definitive medical diagnoses or treatment prescriptions*.
+- Provide a **preliminary analysis** of possible conditions but clearly state that this is not a medical diagnosis.
+- Suggest **next steps**, including home remedies, lifestyle changes, or when to seek professional medical help.
+- Avoid providing **definitive medical diagnoses or treatment prescriptions**.
 - If symptoms indicate a potential medical emergency, advise the user to seek immediate medical attention.
-- Respond in a *compassionate, clear, and concise* manner.
+- Respond in a **compassionate, clear, and concise** manner.
 -Dont reply to other question except health care. give a message that you can only help with medical issue 
 
 Example Flow:
 1. Greet the user and ask for their symptoms.
 2. Ask relevant follow-up questions (e.g., "How long have you been experiencing this?" "Do you have any other symptoms?").
-3. Provide *possible explanations* based on symptoms.
-4. Offer *guidance on next steps*, such as monitoring symptoms, home remedies, or consulting a doctor.
+3. Provide **possible explanations** based on symptoms.
+4. Offer **guidance on next steps**, such as monitoring symptoms, home remedies, or consulting a doctor.
 5. Remind the user that this is not a substitute for professional medical advice.
 
-Your responses should be *user-friendly and informative*, ensuring the user feels guided and reassured.`,
+Your responses should be **user-friendly and informative**, ensuring the user feels guided and reassured.`,
         });
         const result = await model.generateContent(msg);
 
@@ -70,17 +70,17 @@ Your responses should be *user-friendly and informative*, ensuring the user feel
 
     return (
         <>
-            <div className="container w-screen min-h-screen overflow-x-hidden bg-[#0C0C0C] text-white absolute">
+            <div className="w-screen min-h-screen overflow-x-hidden bg-[#0C0C0C] text-white absolute z-[2]">
                 {
                     isResponseScreen ?
                         <div className="h-[80vh] flex flex-col">
                             {/* Header */}
-                            <div className="header pt-[25px] flex items-center justify-between w-full px-[300px]">
-                                <img src={logo} className="w-[302px] h-[123px] mb-5"></img>
+                            <div className="header pt-[35px] flex items-center justify-start w-full px-[300px]">
+                            <div className=" h-[123px] mb-5 "></div>
                                 {/* <h2 className="text-2xl">Diagno AI</h2> */}
                                 <button
                                     id="newChatBtn"
-                                    className="bg-[#181818] p-[10px] rounded-[30px] cursor-pointer text-[14px] px-[20px]"
+                                    className="bg-[#181818]  p-[10px] rounded-[30px] cursor-pointer text-[14px] px-[20px]"
                                     onClick={newChat}
                                 >
                                     New Chat
