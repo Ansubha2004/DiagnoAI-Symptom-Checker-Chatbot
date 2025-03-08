@@ -1,15 +1,30 @@
 import './App.css'
+import {Route,Routes} from 'react-router-dom'
 import Navbar from "./components/Navbar.jsx"
 import Bglanding from "./components/Bglanding.jsx"
 import Mainlanding from './components/Mainlanding.jsx'
+import About from './components/About.jsx'
+import Bgabout from './components/Bgabout.jsx'
 
 function App() {
   
   return (
     <>
       <Navbar></Navbar>
-      <Bglanding></Bglanding>
-      <Mainlanding></Mainlanding>
+      <Routes>
+          <Route path="/" element={
+            <>
+              <Bglanding></Bglanding>
+              <Mainlanding></Mainlanding>
+            </>}></Route>
+            <Route path='/About' element={
+              <>
+                <About></About>
+                <Bgabout></Bgabout>
+              </>}></Route>
+      </Routes>
+      
+      
     </>
   )
 }

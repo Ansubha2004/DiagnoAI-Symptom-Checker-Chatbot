@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/chatbot-logo.png'
+import {Link} from 'react-router-dom'
 
 export default function Mainlanding() {
   return (
@@ -12,9 +13,9 @@ export default function Mainlanding() {
             <button className="w-[200px] h-[60px] rounded-[50px] bg-gradient-to-r from-[#AA87DE] to-[#3BA2F6] shadow-[3px_3px_25px_rgb(0,0,0)]
             transition-all duration-900 ease-in-out hover:bg-gradient-to-br hover:from-[#1E4ED7] hover:via-[#7694EA] hover:to-[#1E4ED7]
             hover:text-white" >Chat For Free</button>
-            <button className="w-[200px] h-[60px] bg-white rounded-[50px] shadow-[3px_3px_25px_rgb(0,0,0)]
+            <Link to="/About"><button className="w-[200px] h-[60px] bg-white rounded-[50px] shadow-[3px_3px_25px_rgb(0,0,0)]
             transition-all duration-900 ease-in-out hover:bg-gradient-to-br hover:from-[#000000] hover:via-[#272727] hover:via-[#5C5C5C] hover:via-[#373737] hover:via-[] hover:to-[#000000]
-            hover:text-white ">Know More</button>
+            hover:text-white ">Know More</button></Link>
         </div>
       </div>
     </div>
