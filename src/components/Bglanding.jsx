@@ -9,7 +9,7 @@ export default function Bglanding() {
     
   return (
     <div>
-      <div className="w-screen h-screen absolute z=1 " id="backlgrounddesign">
+      <div className="w-screen h-screen absolute z=1 bg-[#0C0C0C] " id="backlgrounddesign">
         <div className="h-full w-full relative overflow-hidden">
             <img className="absolute h-[461px] w-[461px] top-1/4 z-[2] " src={bg1} id="3" alt="" />
             <img className="w-[259px] h-[330px] absolute top-1/4 right-0 transform scale-x-200 scale-y-300 " src={bg2} id="2" alt="" />
