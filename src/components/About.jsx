@@ -2,6 +2,11 @@ import React from 'react'
 import workflow from '../assets/flow/workflow.png'
 
 export default function About() {
+
+  useEffect(()=>{
+    AOS.init({duration:1000})
+  },[])
+  
   return (
     <div>
       <main className="absolute z-[3] h-auto w-auto  text-white">
