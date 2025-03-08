@@ -6,6 +6,7 @@ import Mainlanding from './components/Mainlanding.jsx'
 import About from './components/About.jsx'
 import Bgabout from './components/Bgabout.jsx'
 import Chatbot from './components/Chatbot.jsx'
+import Contributers from './components/Contributors.jsx'
 
 function App() {
   
@@ -26,6 +27,10 @@ function App() {
               <Route path='/Chatbot' element={
               <>
                 <Chatbot></Chatbot>
+              </>}></Route>
+              <Route path='/Contributors' element={
+              <>
+                <Contributers></Contributers>
               </>}></Route>
       </Routes>
       

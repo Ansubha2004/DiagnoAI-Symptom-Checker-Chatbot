@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { GiMedicines } from "react-icons/gi";
 import { MdLocalHospital } from "react-icons/md";
 import { FaUserDoctor } from "react-icons/fa6";
@@ -6,8 +6,16 @@ import { FaHandHoldingMedical } from "react-icons/fa6";
 import { IoSend } from 'react-icons/io5'
 import logo from '../assets/chatbot-logo.png'
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const Chatbot = () => {
+    useEffect(()=>{
+        AOS.init({
+          duration:1000
+        })
+      },[])
     const [message, setMessage] = useState("");
     const [isResponseScreen, setisResponseScreen] = useState(false);
     const [messages, setMessages] = useState([]);
@@ -67,7 +75,12 @@ Your responses should be **user-friendly and informative**, ensuring the user fe
         setisResponseScreen(false);
         setMessages([]); // Clear the messages array
     }
-
+    const [cards]=useState([
+        { text: "I have a headache and feel dizzy. Should I be worried?", icon: <MdLocalHospital /> ,delay:"500"},
+        { text: "Can you suggest home remedies for acid reflux?", icon: <GiMedicines />,delay:"1000"},
+        { text: "What are the symptoms of vitamin D deficiency?", icon: <FaHandHoldingMedical /> ,delay:"1500"},
+        { text: "How can I manage stress and anxiety naturally?", icon: <FaUserDoctor /> ,delay:"2000"},
+    ])
     return (
         <>
             <div className="w-screen min-h-screen overflow-x-hidden bg-[#0C0C0C] text-white absolute z-[2]">
@@ -88,7 +101,7 @@ Your responses should be **user-friendly and informative**, ensuring the user fe
                             </div>
 
                             {/* Messages Container */}
-                            <div className="messages flex-1 overflow-y-auto px-[300px] py-4 space-y-4">
+                            <div data-aos="fade" className="messages flex-1 overflow-y-auto px-[300px] py-4 space-y-4">
                                 {messages?.map((msg, index) => (
                                     <div
                                         key={index}
@@ -104,16 +117,12 @@ Your responses should be **user-friendly and informative**, ensuring the user fe
                         </div>
                         :
                         <div className="middle h-[80vh] flex items-center flex-col justify-center">
-                            <img src={logo} className="w-[302px] h-[123px] mb-5"></img>
+                            <img data-aos="fade-right" data-aos-delay="50" src={logo} className="w-[302px] h-[123px] mb-5"></img>
                             {/* <h1 className='text-4xl'>Diagno AI</h1> */}
                             <div className="boxes mt-[30px] flex items-center gap-4 flex-wrap justify-center">
-                                {[
-                                    { text: "I have a headache and feel dizzy. Should I be worried?", icon: <MdLocalHospital /> },
-                                    { text: "Can you suggest home remedies for acid reflux?", icon: <GiMedicines /> },
-                                    { text: "What are the symptoms of vitamin D deficiency?", icon: <FaHandHoldingMedical /> },
-                                    { text: "How can I manage stress and anxiety naturally?", icon: <FaUserDoctor /> },
-                                ].map((item, index) => (
-                                    <div key={index} className="card flex flex-col justify-between rounded-lg cursor-pointer transition-all hover:bg-[#201f1f] px-5 relative h-[200px] w-[250px] bg-[#181818] p-4">
+                                {
+                                cards.map((item, index) => (
+                                    <div key={index} data-aos="fade-left" data-aos-delay={item.delay} className="card flex flex-col justify-between rounded-lg cursor-pointer transition-all hover:bg-[#201f1f] px-5 relative h-[200px] w-[250px] bg-[#181818] p-4">
                                         <p className="text-[18px]">{item.text}</p>
                                         <i className="absolute right-3 bottom-3 text-[18px]">{item.icon}</i>
                                     </div>

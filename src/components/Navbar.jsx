@@ -11,7 +11,7 @@ export default function navbar() {
                 <li className="py-[10px] border-solid border-transparent hover:border-purple-700 focus:border-purple-700 border-b-[3px] "><Link to="/">Home</Link></li>
                 <li className="py-[10px] border-solid border-transparent hover:border-purple-700 focus:border-purple-700 border-b-[3px] "><Link to="/About">About</Link></li>
                 <li className="py-[10px] border-solid border-transparent hover:border-purple-700 focus:border-purple-700 border-b-[3px] "><Link to="/Chatbot">ChatBot</Link></li>
-                <li className="py-[10px] border-solid border-transparent hover:border-purple-700 focus:border-purple-700 border-b-[3px] "><Link to="/">Contributers</Link></li>
+                <li className="py-[10px] border-solid border-transparent hover:border-purple-700 focus:border-purple-700 border-b-[3px] "><Link to="/Contributors">Contributers</Link></li>
             </ul>
             <button id="chatbutton" className="w-[140px] cursor-pointer h-[40px] relative right-[45px] rounded-[15px] bg-[#147CDD] text-[18px] transition-all duration-200 ease-in-out hover:bg-purple-700 active:bg-purple-400 ">Documentation</button>
       </div>
