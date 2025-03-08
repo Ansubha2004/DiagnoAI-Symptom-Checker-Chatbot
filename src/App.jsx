@@ -5,6 +5,7 @@ import Bglanding from "./components/Bglanding.jsx"
 import Mainlanding from './components/Mainlanding.jsx'
 import About from './components/About.jsx'
 import Bgabout from './components/Bgabout.jsx'
+import Chatbot from './components/Chatbot.jsx'
 
 function App() {
   
