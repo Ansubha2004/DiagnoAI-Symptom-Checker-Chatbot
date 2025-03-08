@@ -1,6 +1,5 @@
 # DiagnoAI:- SymptomChecker Chatbot
 
-# Diagno AI
 
 
 
