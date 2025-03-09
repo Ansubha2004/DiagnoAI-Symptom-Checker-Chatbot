@@ -1,5 +1,4 @@
-# DiagnoAI:- SymptomChecker Chatbot
-
+# [DiagnoAI:- SymptomChecker Chatbot](https://diagnoaichatbot.netlify.app/)
 
 
 
@@ -84,7 +83,7 @@ cd DiagnoAI-Symptom-Checker-Chatbot
 2.Install dependencies:
 
 ```bash
-npm Install
+npm install
 ```
 
 3.Start the development server
@@ -96,13 +95,17 @@ npm run dev
 
 The chatbot is live and accessible at:  
 
-🔗 **[Live Demo](https://your-live-link.netlify.app/)** 
+🔗 **[Live Demo](https://diagnoaichatbot.netlify.app/)** 
 
 ![Logo](https://res.cloudinary.com/dtlf7jvw7/image/upload/v1741451438/fsvwqwuftbjfqczu3gsc.png)
 
 ![Logo](https://res.cloudinary.com/dtlf7jvw7/image/upload/v1741451437/tcfdltsonxnvdylymmcx.png)
 
 ![Logo](https://res.cloudinary.com/dtlf7jvw7/image/upload/v1741451437/tyetxpkpxs0hbzihrshs.png)
+
+![Logo](https://res.cloudinary.com/dtlf7jvw7/image/upload/v1741498620/msfwqyzhrfritgng7cuy.png)
+
+![Video](video.mp4)
 ## Contributors
 
 **Ansubha Dhar**
@@ -158,6 +161,8 @@ The chatbot is live and accessible at:
 
 Feel free to fork the repo and submit a pull request with improvements or new features.
 
+**This project was submitted to [360 Codecraft Hackathon](https://www.instagram.com/p/DGxXaCYzNSo/?igsh=MTh2YjhqeDZyMzBhaQ==) organised by [INNOVACION (IEM KOLKATA).](https://www.iem-innovacion.com/)**
+
 ## License
 
 This project is licensed under the MIT License.
@@ -170,4 +175,4 @@ This project is licensed under the MIT License.
 
 [Tailwind CSS](https://tailwindcss.com/) for styling.
 
-
+[Figma](https://www.figma.com/) for UI/UX Design
