@@ -95,7 +95,9 @@ npm run dev
 
 The chatbot is live and accessible at:  
 
-🔗 **[Live Demo](https://diagnoaichatbot.netlify.app/)** 
+🔗 **[Live Demo](https://diagnoaichatbot.netlify.app/)**  
+🔗 **[Prototype Design](https://www.figma.com/proto/i7MCGxQF7x7Cd8k2pB0P6y/Untitled?node-id=72-21&t=b5YA3DuzkL1yxsfz-1)**
+<br>
 
 ![Logo](https://res.cloudinary.com/dtlf7jvw7/image/upload/v1741451438/fsvwqwuftbjfqczu3gsc.png)
 
@@ -106,7 +108,6 @@ The chatbot is live and accessible at:
 ![Logo](https://res.cloudinary.com/dtlf7jvw7/image/upload/v1741498620/msfwqyzhrfritgng7cuy.png)
 
 ![Check working Video](https://github.com/Ansubha2004/DiagnoAI-Symptom-Checker-Chatbot/blob/c887cb424660b748d8db163257c1a2d6a9b97ca8/video.mp4)
-<br>
 ![Download Presentation](presentation.pptx)
 ## Contributors
 
@@ -178,3 +179,5 @@ This project is licensed under the MIT License.
 [Tailwind CSS](https://tailwindcss.com/) for styling.
 
 [Figma](https://www.figma.com/) for UI/UX Design
+
+[ChatGPT](https://chatgpt.com/) for external assistance
