@@ -105,7 +105,9 @@ The chatbot is live and accessible at:
 
 ![Logo](https://res.cloudinary.com/dtlf7jvw7/image/upload/v1741498620/msfwqyzhrfritgng7cuy.png)
 
-![Video](video.mp4)
+![Check working Video](https://github.com/Ansubha2004/DiagnoAI-Symptom-Checker-Chatbot/blob/c887cb424660b748d8db163257c1a2d6a9b97ca8/video.mp4)
+<br>
+![Download Presentation](presentation.pptx)
 ## Contributors
 
 **Ansubha Dhar**
