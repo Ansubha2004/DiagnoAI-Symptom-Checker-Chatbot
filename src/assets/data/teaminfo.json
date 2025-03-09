@@ -1,0 +1,42 @@
+ [
+      {
+        "id":1,
+        "name": "Ankit Hazra",
+        "role": "Full Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/hazraankit2005/",
+        "github": "https://github.com/AnkitHazra/",
+        "email": "hazraankit668@gmail.com"
+      },
+      {
+        "id":2,
+        "name": "Ansubha Dhar",
+        "role": "Full Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/ansubha-dhar-856176296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/Ansubha2004/",
+        "email": "ansubhadhar2012@gmail.com"
+      },
+      {
+        "id":3,
+        "name": "Anish Ghosh",
+        "role": "Frontend and Documentation",
+        "linkedin": "https://www.linkedin.com/in/anish-ghosh-284892282/",
+        "github": "https://github.com/Ianishghosh",
+        "email": "ghoshanish.848@gmail.com"
+      },
+      {
+        "id":4,
+        "name": "Abhimanyu Ganguly",
+        "role": "API testing and Documentation",
+        "linkedin": "https://www.linkedin.com/in/abhimanyu-ganguly-12b66b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/Abhimanyu1810",
+        "email": "abhimanyu.ganguly1810@gmail.com"
+      },
+      {
+        "id":5,
+        "name": "Adipto Purakayastha",
+        "role": "UI/UX Designer",
+        "linkedin": "https://www.linkedin.com/in/adipto-purakayastha-a13346270/",
+        "github": "https://adiptodesignx.notion.site/Hi-I-m-Adipto-UI-UX-Designer-19109703660080e58a53dc6bc31614e7?pvs=4",
+        "email": "adipto.uiuxdesign@gmail.com"
+      }
+    ]

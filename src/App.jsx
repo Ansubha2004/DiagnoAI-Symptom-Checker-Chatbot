@@ -7,6 +7,7 @@ import About from './components/About.jsx'
 import Bgabout from './components/Bgabout.jsx'
 import Chatbot from './components/Chatbot.jsx'
 import Contributers from './components/Contributors.jsx'
+import Teambackground from './components/Teambackground.jsx'
 
 function App() {
   
@@ -31,6 +32,7 @@ function App() {
               <Route path='/Contributors' element={
               <>
                 <Contributers></Contributers>
+                <Teambackground></Teambackground>
               </>}></Route>
       </Routes>
       
